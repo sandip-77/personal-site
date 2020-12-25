@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sandip Rout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud"src="images/cloud.png" alt="cloud-img">
+      <h1>I'm sandip</h1>
+      <h5>a programmer</h5>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img class="mountain"src="images/mountain.png" alt="mountain-img">
+
+    </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="sandip" src="sandip.jpg" alt="sandip.jpg">
+      <h2>Hello.</h2>
+      <p>I am a student who is passionate about coding.</p>
+    </div>
+    <hr class="dot">
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-dev" src="code.png" alt="img">
+        <h3>WEB DEVELOPMENT</h3>
+        <p class="code-skill-description">I started learning coding when I was 17 years old beacuse I wanted to work in tech giants like google, microsoft, amazon ect.
+        But now I am more interested in making and desgining websites. </p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-code" src="coding.png" alt="skill-img">
+        <h3>C++</h3>
+        <p>I also have knowledge in C++ & deep understanding of data structure & algorithm.</p>
+      </div>
+    </div>
+    <hr class="dot">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Wanna hire me for your project?</h3>
+      <p>let"s talk about it.</p>
+      <a class="btn" href="mailto:itssandip1@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2020 Sandip Rout.</p>
+  </div
+  </body>
+</html>
+
+<style media="screen">
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  line-height: 2;/*gap between */
+  margin-bottom: 0;
+  color: #66BFBF;
+  font-weight: normal;/*To get rid of boldness*/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+h5 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 20px;
+  color: #66BFBF;
+  font-weight: normal;
+}
+.sandip{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.top-container {
+
+  padding-top: 100px;
+  background-color: #ADD8E6;
+  position: relative;
+}
+.middle-container {
+margin-top: 100px;
+}
+.dot {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.bottom-container {
+    margin: 70px 0 0 0;
+    background: #66BFBF;
+    padding: 30px 0 30px 0;
+    font-family: 'Merriweather', serif;
+}
+.footer-link{
+  text-decoration: none;
+  color: #11999e ;
+
+}
+a{
+  font-family: 'Merriweather', serif;
+  color: #11999e;
+  margin: 10px 20px;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.skill-dev{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  float: left;/*doing this the text will appear right to the image.*/
+  margin-right: 30px;/*It will add a gap beween our text and image */
+
+}
+.skill-code{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+
+}
+.skill-row{
+  width: 50%;/*only by doing this our blocks are no longer going to be central so we havr to us emargin*/
+  margin:100px auto 100px auto;/*this will center the element*/
+  text-align: left;/*this will override the center text allign at the body*/
+  line-height: 2;/*gap between two ines increases*/
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+/*.code-skill-description{
+  clear: left;
+} By doing this the lest side of paragraph will be completely clear and the texts will come to left emargin
+*/
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   font-size: 24px;
+   font-weight: 100;
+   padding: 11px;
+   background-color: #66BFBF;
+   text-shadow: 1px 1px 20px #FFFFFF;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.copyright{
+  color: #EAF6F6;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #C2CFE5;
+   background-image: -webkit-linear-gradient(top, #C2CFE5, #3D94F6);
+   background-image: -moz-linear-gradient(top, #C2CFE5, #3D94F6);
+   background-image: -ms-linear-gradient(top, #C2CFE5, #3D94F6);
+   background-image: -o-linear-gradient(top, #C2CFE5, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #C2CFE5, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+</style>
